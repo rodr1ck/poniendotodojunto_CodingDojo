@@ -1,7 +1,31 @@
 .App {
   text-align: center;
 }
-
+#root {
+  display: flex;
+  margin: 0 15px;
+  padding: 15px;
+}
+#root div {
+  margin: 0 auto;
+	display: inline-block;
+  text-align: center;
+}
+#root div{
+  display: inline;
+}
+#root  div div h1 {
+  display:flex;
+  justify-content:flex-start;
+}
+#root  div div h3 {
+  display:flex;
+  justify-content:flex-start;
+}
+#root  div div button {
+  display:flex;
+  justify-content:flex-start;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
